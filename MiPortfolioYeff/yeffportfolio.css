@@ -1,0 +1,168 @@
+/* aqui empieza */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,900;1,100&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
+div{
+    padding-top: 7px;
+}
+body{
+
+}
+
+#divnombre{
+    padding-bottom: 6px;
+    border-style: none;
+}
+#nombre{
+   /* border: 3px solid;
+    border-color: #77dd77;
+    border-radius: 37px;*/
+    padding-top: 15px;
+    color: #00A97FFF;
+}
+p#nombre{
+    margin:0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+#contacto{
+
+}
+#github{
+    border-radius: 75px;
+    width: 3%;
+}
+h4{
+    color: black;
+}
+.nav a{
+    color: grey!important;
+    font-size: small;
+}
+.text{
+    font-size: small;
+    margin-bottom: 5px;
+}
+form{
+    display: block;
+    margin: 0 auto;
+}
+#pcard{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.text{
+    font-size: small;
+    margin-bottom: 5px;
+}
+.mini{
+    font-size: smaller;
+}
+
+/* Boton curriculum */
+.button {
+    --color: #00A97F;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+}
+
+.button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+}
+
+.button::before {
+    top: -1em;
+    left: -1em;
+}
+
+.button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+.button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+}
+
+.button:hover {
+    color: rgb(10, 25, 30);
+}
+
+.button:active {
+    filter: brightness(.8);
+}
+
+/* CARDS DE GITHUB */
+.card {
+    margin: 0;
+    padding: 0;
+    width: 191px;
+    height: 234px;
+    background-image: linear-gradient(163deg, #b0f2c2 0%, #b2e2f2 100%);
+    border-radius: 20px;
+    transition: all .3s;
+}
+
+.card2 {
+    margin: 0;
+    width: 188px;
+    height: 254px;
+    background-color: #f6f7f9;
+    border-radius: 3px;
+    transition: all .2s;
+}
+
+.card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+
+/* Carousel */
+#carousel{
+
+}
+/* CONTADOR */
+#sfc3npua4tuadzr9ce8kx6jud2zrtz7klht {
+    background: #f6f7f9;
+    color: #f6f7f9;
+    height: 3%;
+    width: 6%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 80.5%; /* Posicionamos la cabecera al lado izquierdo */
+    top: 93%; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
